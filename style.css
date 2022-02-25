@@ -1,1 +1,30 @@
-* 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding-left: 20px;
+    border-bottom: 4px solid royalblue;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+header {
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/20/03/15/pier-1467984_960_720.jpg)
+}
